@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jkwar.FragmentDemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.StateAddActivity" />
+        <activity android:name=".activity.DynamicAddActivity" />
+        <activity android:name=".activity.LifecycleActivity" />
+        <activity android:name=".activity.FragmentTaskActivity" />
+        <activity android:name=".activity.StartActivityForResultActivity" />
+        <activity android:name=".activity.FruitsDetailsActivity" />
+        <activity android:name=".activity.NestFragmentActivity"></activity>
+    </application>
+
+</manifest>

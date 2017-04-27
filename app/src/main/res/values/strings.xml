@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FragmentDemo</string>
+    <string name="stateadd">静态添加fragment</string>
+    <string name="dynamicadd">动态添加fragment</string>
+    <string name="fragmentLifecycle">fragment生命周期</string>
+    <string name="fragmentTask">管理片段Backstack</string>
+    <string name="exitall">回退fragment栈</string>
+    <string name="update">修改</string>
+    <string name="fragment_startActivityForResult">fragment startActivityForResult</string>
+    <string name="nest_fragment">嵌套fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

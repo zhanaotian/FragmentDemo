@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jkwar.FragmentDemo.activity.MainActivity">
+
+    <Button
+        android:id="@+id/stateaddBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stateadd" />
+
+    <Button
+        android:id="@+id/dynamicaddBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dynamicadd" />
+
+    <Button
+        android:id="@+id/lifecycleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragmentLifecycle" />
+
+    <Button
+        android:id="@+id/fragmentTaskBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragmentTask" />
+
+    <Button
+        android:id="@+id/startActivityForResultBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_startActivityForResult" />
+
+    <Button
+        android:id="@+id/nest_fragmentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nest_fragment" />
+</LinearLayout>

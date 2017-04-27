@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/dynamic_content"
+    tools:context="com.jkwar.FragmentDemo.activity.DynamicAddActivity">
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加" />
+
+    <Button
+        android:id="@+id/removeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移除" />
+
+    <Button
+        android:id="@+id/hideBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐藏" />
+
+    <Button
+        android:id="@+id/showBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示" />
+
+    <Button
+        android:id="@+id/replaceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="替换" />
+</LinearLayout>
